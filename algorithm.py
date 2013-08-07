@@ -22,7 +22,7 @@ class PageParser(HTMLParser.HTMLParser):#翻译实体
             self.handle_data(entitydefs[name])
     def getdata(self):
         return self.data
-
+ 
 global res
 def getACUrl():
     step=1
